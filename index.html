@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d3a">
+  <meta name="description" content="الأمان لتركيب كاميرات المراقبة في سوريا. تواصل معنا عبر الهاتف أو واتساب لطلب خدمة التركيب.">
+  <title>الأمان | تركيب كاميرات المراقبة في سوريا</title>
+  <style>
+    :root{--navy:#101d3a;--navy2:#17294f;--red:#e53945;--white:#fff;--muted:#667085;--pale:#f4f6fa}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Tahoma,Arial,sans-serif;color:var(--navy);background:#fff;line-height:1.8}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1120px,92%);margin:auto}
+    header{background:var(--navy);color:#fff;position:sticky;top:0;z-index:5;box-shadow:0 4px 18px #07112625}
+    .nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:1.35rem}
+    .logo{width:42px;height:42px;display:grid;place-items:center;background:var(--red);border-radius:12px;color:#fff;font-size:1.4rem}
+    .navlinks{display:flex;align-items:center;gap:24px;font-size:.95rem}
+    .navlinks a:hover{color:#ffb6bb}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 20px;border-radius:10px;font-weight:700;border:2px solid transparent;transition:.2s;cursor:pointer}
+    .btn-red{background:var(--red);color:#fff}.btn-red:hover{background:#c92834;transform:translateY(-1px)}
+    .btn-outline{border-color:#ffffff75;color:#fff}.btn-outline:hover{background:#ffffff15}
+    .hero{background:radial-gradient(circle at 12% 20%,#293f6b 0,transparent 36%),linear-gradient(135deg,var(--navy),#0b1429);color:#fff;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:42px;padding:78px 0 82px}
+    .eyebrow{display:inline-block;color:#ffb6bb;background:#e5394525;border:1px solid #e5394566;padding:5px 12px;border-radius:99px;font-size:.88rem;font-weight:700}
+    h1{font-size:clamp(2rem,4.4vw,3.7rem);line-height:1.25;margin:18px 0}
+    .hero p{font-size:1.12rem;color:#e0e7f4;max-width:610px;margin:0 0 28px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px}
+    .camera-art{min-height:310px;display:grid;place-items:center;position:relative}
+    .orbit{width:min(330px,78vw);aspect-ratio:1;border:1px solid #ffffff25;border-radius:50%;display:grid;place-items:center;position:relative;background:radial-gradient(circle,#ffffff12,transparent 65%)}
+    .orbit:before,.orbit:after{content:"";position:absolute;border:1px solid #ffffff18;border-radius:50%;width:78%;height:78%}
+    .orbit:after{width:56%;height:56%}
+    .cam{position:relative;z-index:1;width:210px;height:125px;background:linear-gradient(145deg,#fff,#d9e1ee);border-radius:24px 28px 22px 22px;transform:rotate(-12deg);box-shadow:0 22px 45px #0005}
+    .cam:before{content:"";position:absolute;left:-44px;top:30px;width:65px;height:65px;background:#d7dfed;clip-path:polygon(0 20%,100% 0,100% 100%,0 80%);border-radius:8px}
+    .cam:after{content:"";position:absolute;right:20px;top:24px;width:78px;height:78px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#a7bad7 0 8%,#253b60 10% 32%,#0c1427 34% 58%,#3f5374 60% 68%,#17243d 70%);border:6px solid #bcc9db}
+    .mount{position:absolute;z-index:0;top:62%;width:100px;height:65px;border-right:10px solid #9eacc3;border-bottom:10px solid #9eacc3;border-radius:0 0 16px 0;transform:rotate(15deg)}
+    .floating{position:absolute;z-index:2;background:#fff;color:var(--navy);border-radius:14px;padding:10px 14px;box-shadow:0 12px 30px #0003;font-weight:700}
+    .float1{top:14%;right:0}.float2{bottom:10%;left:0}
+    section{padding:72px 0}
+    .section-head{text-align:center;max-width:700px;margin:0 auto 38px}
+    .section-head h2{font-size:clamp(1.65rem,3vw,2.35rem);margin:0 0 10px}
+    .section-head p{color:var(--muted);margin:0}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .feature{padding:26px;border:1px solid #e6eaf1;border-radius:16px;background:#fff;box-shadow:0 8px 24px #101d3a08}
+    .feature-icon{width:48px;height:48px;display:grid;place-items:center;border-radius:13px;background:#fff0f1;color:var(--red);font-size:1.45rem;margin-bottom:14px}
+    .feature h3{margin:0 0 8px;font-size:1.15rem}.feature p{color:var(--muted);margin:0;font-size:.96rem}
+    .services{background:var(--pale)}
+    .service-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+    .service{display:flex;gap:14px;align-items:flex-start;background:#fff;padding:18px;border-radius:13px;border:1px solid #e6eaf1}
+    .check{flex:0 0 28px;width:28px;height:28px;display:grid;place-items:center;background:#e8f7ef;color:#16834a;border-radius:50%;font-weight:bold}
+    .service strong{display:block;margin-bottom:2px}.service span:last-child{color:var(--muted);font-size:.93rem}
+    .contact{background:var(--navy);color:#fff}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:36px}
+    .contact h2{font-size:clamp(1.7rem,3vw,2.4rem);margin:0 0 12px}
+    .contact p{color:#d7dfed;margin:0 0 22px}
+    .contact-card{background:#fff;color:var(--navy);padding:26px;border-radius:18px}
+    .phone{font-size:1.55rem;font-weight:800;direction:ltr;text-align:right;margin:6px 0 18px}
+    .contact-buttons{display:flex;flex-wrap:wrap;gap:10px}
+    footer{background:#091226;color:#c6d0e2;padding:22px 0;font-size:.9rem}
+    .foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+    .small{font-size:.85rem;color:#8f9db5}
+    @media(max-width:760px){
+      .nav{min-height:66px}.navlinks{display:none}.brand{font-size:1.2rem}
+      .hero-grid{grid-template-columns:1fr;text-align:center;padding:56px 0 60px;gap:12px}
+      .hero p{margin-inline:auto}.actions{justify-content:center}.camera-art{min-height:260px}
+      .features{grid-template-columns:1fr}.service-list{grid-template-columns:1fr}
+      section{padding:54px 0}.contact-grid{grid-template-columns:1fr;gap:22px}
+      .float1{right:2%}.float2{left:2%}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="الأمان - الصفحة الرئيسية"><span class="logo">◉</span><span>الأمان <span style="color:#ff7d86">للكاميرات</span></span></a>
+    <nav class="navlinks" aria-label="التنقل الرئيسي">
+      <a href="#services">خدماتنا</a><a href="#why">لماذا الأمان؟</a><a href="#contact">تواصل معنا</a>
+    </nav>
+    <a class="btn btn-red" href="https://wa.me/963982838227" target="_blank" rel="noopener">واتساب ↗</a>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">خدمات تركيب كاميرات المراقبة في سوريا</span>
+        <h1>راقب ما يهمّك،<br><span style="color:#ff737d">واطمئن أينما كنت</span></h1>
+        <p>الأمان لخدمات تركيب كاميرات المراقبة للمنازل والمحلات والمكاتب. نساعدك على اختيار الحل المناسب وتركيب نظام واضح وسهل الاستخدام.</p>
+        <div class="actions">
+          <a class="btn btn-red" href="tel:+963982838227">اتصل الآن: 0982838227</a>
+          <a class="btn btn-outline" href="https://wa.me/963982838227" target="_blank" rel="noopener">راسلنا على واتساب</a>
+        </div>
+      </div>
+      <div class="camera-art" aria-hidden="true">
+        <div class="orbit"><div class="mount"></div><div class="cam"></div></div>
+        <div class="floating float1">⌁ تركيب احترافي</div>
+        <div class="floating float2">◉ متابعة وراحة بال</div>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><h2>خدماتنا</h2><p>حلول مراقبة تناسب احتياجاتك، من اختيار الموقع إلى تجربة النظام بعد التركيب.</p></div>
+      <div class="features">
+        <article class="feature"><div class="feature-icon">◉</div><h3>تركيب كاميرات مراقبة</h3><p>تركيب الكاميرات وتحديد زوايا الرؤية المناسبة للمنزل أو مكان العمل.</p></article>
+        <article class="feature"><div class="feature-icon">⌂</div><h3>حلول للمنازل والمحلات</h3><p>تنظيم التغطية بحسب مساحة المكان والمداخل والنقاط المهمة.</p></article>
+        <article class="feature"><div class="feature-icon">▣</div><h3>إعداد المشاهدة والتسجيل</h3><p>المساعدة في إعداد جهاز التسجيل والمشاهدة من الهاتف عند دعم المعدات لذلك.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="why">
+    <div class="wrap">
+      <div class="section-head"><h2>لماذا تختار الأمان؟</h2><p>اهتمام بالتفاصيل وتواصل واضح من بداية الطلب حتى اختبار النظام.</p></div>
+      <div class="service-list">
+        <div class="service"><span class="check">✓</span><div><strong>معاينة الاحتياج</strong><span>تحديد النقاط التي تحتاج إلى تغطية قبل اختيار المعدات.</span></div></div>
+        <div class="service"><span class="check">✓</span><div><strong>تركيب مرتب</strong><span>الاهتمام بمواقع الكاميرات وتمديدات الأسلاك قدر الإمكان.</span></div></div>
+        <div class="service"><span class="check">✓</span><div><strong>شرح الاستخدام</strong><span>شرح أساسيات المشاهدة والتسجيل بعد الانتهاء من التركيب.</span></div></div>
+        <div class="service"><span class="check">✓</span><div><strong>تواصل مباشر</strong><span>اتصل أو أرسل تفاصيل المكان عبر واتساب للاستفسار.</span></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div><span class="eyebrow">نحن جاهزون لمساعدتك</span><h2>ابدأ بتأمين مكانك اليوم</h2><p>تواصل معنا لمعرفة التفاصيل وتحديد احتياجك لتركيب كاميرات المراقبة في سوريا.</p><div class="small">يفضّل إرسال المنطقة ونوع المكان وعدد الكاميرات التقريبي عبر واتساب.</div></div>
+      <div class="contact-card"><strong>الأمان لتركيب كاميرات المراقبة</strong><div class="phone">0982838227</div><div class="contact-buttons"><a class="btn btn-red" href="tel:+963982838227">☎ اتصال مباشر</a><a class="btn" style="background:#16834a;color:#fff" href="https://wa.me/963982838227?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%20%D9%83%D8%A7%D9%85%D9%8A%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%A9" target="_blank" rel="noopener">✆ ابدأ محادثة واتساب</a></div></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year">2026</span> الأمان — جميع الحقوق محفوظة</span><span>تركيب كاميرات المراقبة في سوريا</span></div></footer>
+</body>
+</html>
